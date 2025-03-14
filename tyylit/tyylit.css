@@ -2,6 +2,7 @@ body {
     background-color: azure;
     width: 60%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
@@ -10,10 +11,50 @@ body {
 }
 
 th,
-td {
+td,
+table {
     border: 1px solid black;
+}
+
+th {
+    font-size: large;
+    font-weight: 600;
+}
+
+td {
+    font-size: large;
+    font-weight: 300;
+    padding: 5px;
 }
 
 img {
     height: 200px;
+}
+
+p {
+    font-size: large;
+    line-height: 1.5;
+    text-indent: 20px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    background-color: alternative;
+    border-color: darkslategray;
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+input[type=bottom] {
+    background-color: cornsilk;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
 }
