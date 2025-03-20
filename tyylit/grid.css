@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 70px auto 50px;
+    grid-template-columns: 100px auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: blue;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: red;
+    text-align: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: green;
+}
+
+.main {
+    grid-area: main;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
