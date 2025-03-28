@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid esimerkki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="tyylit/grid.css">
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="sidebar">
+            <h4>Linkkejä</h4>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://lab.fi" data-bs-toggle="tooltip" data-bs-placement="Top"
+                        data-bs-title="Default tooltip">LAB</a></li>
+                <li class="list-group-item"><a href="https://lut.fi" data-bs-toggle="tooltip" data-bs-placement="Top"
+                        data-bs-title="Default tooltip">LUT</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <nav class="navbar fixed-top bg-primary">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1">Grid asetteluesimerkki</span>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="card text-center col-6 col-md-4 col-lg-2">
+                <div class="card-header">
+                    Ensimmäinen kortti
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kortin otsikko</h5>
+                    <p class="card-text">Kortin sisältö</p>
+                    <a href="#" class="btn btn-primary float-start">testi</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    Ok
+                </div>
+            </div>
+            <div class="card text-center col-6 col-md-4 col-lg-2">
+                <div class="card-header">
+                    Ensimmäinen kortti
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kortin otsikko</h5>
+                    <p class="card-text">Kortin sisältö</p>
+                    <a href="#" class="btn btn-danger float-end">testi</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    Ok
+                </div>
+            </div>
+            <div class="card text-center col-6 col-md-4 col-lg-2">
+                <div class="card-header">
+                    Ensimmäinen kortti
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kortin otsikko</h5>
+                    <p class="card-text">Kortin sisältö</p>
+                    <a href="#" class="btn btn-warning">testi</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    Ok
+                </div>
+            </div>
+            <div class="card text-center col-6 col-md-4 col-lg-2">
+                <div class="card-header">
+                    Ensimmäinen kortti
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kortin otsikko</h5>
+                    <p class="card-text">Kortin sisältö</p>
+                    <a href="#" class="btn btn-warning">testi</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    Ok
+                </div>
+            </div>
+            <div class="card text-center col-6 col-md-4 col-lg-2">
+                <div class="card-header">
+                    Ensimmäinen kortti
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kortin otsikko</h5>
+                    <p class="card-text">Kortin sisältö</p>
+                    <a href="#" class="btn btn-warning">testi</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    Ok
+                </div>
+            </div>
+            <div class="card text-center col-6 col-md-4 col-lg-2">
+                <div class="card-header">
+                    Ensimmäinen kortti
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Kortin otsikko</h5>
+                    <p class="card-text">Kortin sisältö</p>
+                    <a href="#" class="btn btn-warning">testi</a>
+                </div>
+                <div class="card-footer text-muted-bg-secondary">
+                    Ok
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script> const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+</body>
+
+
+</html>
